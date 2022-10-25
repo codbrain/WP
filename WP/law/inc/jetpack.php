@@ -7,7 +7,6 @@
  * @package Law
  */
 
-
 /**
  * Jetpack setup function.
  *

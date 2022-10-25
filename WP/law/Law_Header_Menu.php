@@ -9,7 +9,6 @@
 class Law_Header_Menu extends Walker_Nav_Menu
 {
 
-
     public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
         if ( isset( $args->item_spacing ) && 'discard' === $args->item_spacing ) {
             $t = '';

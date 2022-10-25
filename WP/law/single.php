@@ -6,7 +6,6 @@
  *
  * @package Law
  */
-
 get_header();
 ?>
 

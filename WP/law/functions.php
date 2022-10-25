@@ -7,7 +7,6 @@
  * @package Law
  */
 
-
 require_once get_template_directory() . '/Law_Header_Menu.php';
 
 if ( ! function_exists( 'law_setup' ) ) :
