@@ -1,8 +1,10 @@
-<?php
+<?
 
-class FirstClass
+class FirstClass 
 {
 
-
-
 }
+
+
+
+?>

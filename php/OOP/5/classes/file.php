@@ -12,23 +12,15 @@
             }
             $this->fp=fopen($this->file, 'a');
         }
-
         public function __destruct()
         {
             fclose($this->fp);
         }
-
         public function write($text){
             if (fwrite($this->fp, $text . PHP_EOL) === FALSE) {
                 echo "Не могу произвести запись к файлу ($this->file) ";
                 exit;
             }
-
-
-
         }
-
     }
-
-
 ?>

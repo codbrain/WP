@@ -9,11 +9,11 @@ class Car
     public $brand;
 
     public function getCarInfo(){
-        return "<h3>О моем авто:</h3>
-            Марка: {$this->brand}<br>
-            Цвет: {$this->color}<br>
-            Кол-во колес: {$this->wheels}<br>
-            Скорость: {$this->speed}<br>";
+        return "<h3>My car:</h3>
+            Brand: {$this->brand}<br>
+            Color: {$this->color}<br>
+            wheels: {$this->wheels}<br>
+            speed: {$this->speed}<br>";
     }
 
 }
