@@ -2,12 +2,6 @@
 	
 	'use strict';
 
-	var str = $('#fh5co-logo a').text();
-	str = str.slice(0, -1) + '<span>' + str.substr(-1) + '</span>';
-    $('#fh5co-logo a').html(str);
-
-    //$('#fh5co-counter > .fw-container > .fw-row > div').addClass('animate-box');
-
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
