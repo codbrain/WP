@@ -1,0 +1,41 @@
+/*
+Theme Name: FSE Services new
+Theme URI: 
+Author: Alex
+Author URI: http://wp-fse/
+Description: 
+Requires at least: 6.0
+Tested up to: 6.2.2
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fseservicesnew
+Tags: full-site-editing
+*/
+
+.fse-custom-heder{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 2;
+}
+
+.main-nav .is-menu-open ul.wp-block-navigation__container{
+    padding-right: 20px;
+
+}
+
+.wp-block-navigation-link a{
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+}
+
+.wp-block-navigation-link.current-menu-item a{
+    border-bottom: 2px solid var(--wp--preset--color--custom-fse-yellow);
+}
+
+.wp-block-navigation-link a:hover{
+    border-bottom: 2px solid var(--wp--preset--color--custom-fse-yellow);
+}
